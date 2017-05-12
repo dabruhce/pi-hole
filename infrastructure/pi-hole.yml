@@ -63,6 +63,7 @@ Resources:
             sudo yum update -y
             #sudo usermod -a -G docker ec2-user
             sudo service docker start
-            git clone https://github.com/tkntobfrk/pi-hole.git
-            cd pi-hole/automated install
-            sudo ./basic-install.sh
+            cd ~
+            git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
+            cd Pi-hole/automated\ install/
+            bash basic-install.sh
