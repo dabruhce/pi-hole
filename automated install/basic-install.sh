@@ -52,7 +52,7 @@ c=$(( c < 70 ? 70 : c ))
 ######## Undocumented Flags. Shhh ########
 skipSpaceCheck=false
 reconfigure=false
-runUnattended=false
+runUnattended=true
 
 show_ascii_berry() {
   echo "
